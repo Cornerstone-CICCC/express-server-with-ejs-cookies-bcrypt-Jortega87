@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.error {
+  color: red;
+}
